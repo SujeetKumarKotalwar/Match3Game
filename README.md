@@ -1,11 +1,8 @@
-[![unofficial Google Analytics for GitHub](https://gaforgithub.azurewebsites.net/api?repo=Match3StyleGame)](https://github.com/dgkanatsios/gaforgithub)
 
-# Match-3 game 
+created a match 3 gameplay prototype based on the below criteria:
 
-![Match three game](https://dgkanatsios.files.wordpress.com/2015/02/image_5062f746.png)
+1.Created a falling block mechanism for 3 colored blocks: Red, Blue, and Green. The system should is coded in such a way that new color blocks can be added dynamically.
 
-A match-3 game in Unity (like Candy Crush and Bejeweled). Tutorial and source code commenting can be found in the blog post: http://dgkanatsios.com/2015/02/25/building-a-match-3-game-in-unity-3/
+2.Falling blocks have probability control.  e.g. Red block 50%, Blue block 20% and Green block 30%. In this example, Red would be filling up the board more than yellow and green.
 
-### Assets
-Graphics: http://opengameart.org/content/candy-pack-1
-Sounds: http://freesound.org/people/volivieri/sounds/37171/
+3.No moves possible: A scenario where there is no match of 3 of any color, same tiles should jumble on the board. Created an animated effect for re-arrangement of the tiles on the board.
